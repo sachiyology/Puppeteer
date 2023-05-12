@@ -14,7 +14,7 @@ Settting up Puppeteer
 4) Enter Command to create packeage.json
 >$ npm init
 5) Install the puppeteer npm module and others as below
->$ npm i puppeteer
->$ npm i resemblejs
->$ npm i fs
+>$ npm i puppeteer<br>
+>$ npm i resemblejs<br>
+>$ npm i fs<br>
 6) Create a file to take screenshots that you'd like to compare.
