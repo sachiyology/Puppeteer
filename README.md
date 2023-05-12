@@ -18,3 +18,5 @@ Settting up Puppeteer
 >$ npm i resemblejs<br>
 >$ npm i fs<br>
 6) Create a file to take screenshots that you'd like to compare.
+7) Execute the file to take screenshots
+>$ node 'file name'
