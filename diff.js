@@ -3,7 +3,7 @@ const resemble = require('node-resemble-js');
 
 //Replace the file names as below
 const file1 = Buffer.from(fs.readFileSync('sc_prod.png'));
-const file2 = Buffer.from(fs.readFileSync('sc_pp.png'));
+const file2 = Buffer.from(fs.readFileSync('sc_preprod.png'));
 
 resemble.outputSettings({ transparency: 0.1 });
 resemble(file1).compareTo(file2).onComplete( data => {
